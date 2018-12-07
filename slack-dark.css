@@ -1517,9 +1517,11 @@ ts-jumper .p-jumper__help {
   .client_channels_list_container {
     visibility: hidden; flex-basis:auto; width: 0; min-width:0; z-index: 1000 !important;
   }
+  .p-channel_sidebar__static_list {
+    padding-top: 50px;
+  }
   .p-channel_sidebar__static_list > div{
     height: 30px !important;
-    margin-top: 2px;
     display: inline-block;
   }
   .p-channel_sidebar__static_list > div > button,
@@ -1539,7 +1541,6 @@ ts-jumper .p-jumper__help {
     width:auto;
   }
   .p-channel_sidebar__channel.p-channel_sidebar__channel--unread:hover{
-    background-color: #383838 !important;
     border-color: #66c2ff;
     height: 30px !important
   }
