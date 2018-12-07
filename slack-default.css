@@ -15,6 +15,7 @@
   .p-channel_sidebar__static_list > div{
     height: 30px !important;
     display: inline-block;
+    margin-top: 2px;
   }
   .p-channel_sidebar__static_list > div > button,
   .p-channel_sidebar__static_list > div > span,
