@@ -9,10 +9,12 @@
   .client_channels_list_container {
     visibility: hidden; flex-basis:auto; width: 0; min-width:0; z-index: 1000 !important;
   }
+  .p-channel_sidebar__static_list {
+    padding-top: 50px;
+  }
   .p-channel_sidebar__static_list > div{
-    float:left;
     height: 30px !important;
-    margin-top: 2px;
+    display: inline-block;
   }
   .p-channel_sidebar__static_list > div > button,
   .p-channel_sidebar__static_list > div > span,
@@ -28,6 +30,8 @@
     border-width: 1px 1px 1px 0;
     border-radius: 0 15px 15px 0;
     height: 30px !important;
+    min-width: 51%;
+    width: auto;
   }
   .p-channel_sidebar__channel.p-channel_sidebar__channel--unread:hover{
     background-color: #6698C8 !important;
