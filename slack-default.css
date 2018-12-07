@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+  /* hide the sidebar */
+  #messages_container {
+    margin-left: 0;
+  }
+  #notification_bar {
+    width: 100vw;
+  }
+  .client_channels_list_container {
+    visibility: hidden; flex-basis:auto; width: 0; min-width:0; z-index: 1000 !important;
+  }
+  .p-channel_sidebar__static_list > div{
+    float:left;
+    height: 30px !important;
+    margin-bottom: 2px;
+  }
+  .p-channel_sidebar__static_list > div > button,
+  .p-channel_sidebar__static_list > div > span,
+  .p-channel_sidebar__channel,
+  .p-channel_sidebar__section_heading{
+    display: none
+  }    
+  .p-channel_sidebar__channel--unread{
+    display: inline-block;
+    visibility: visible;
+    background: #303E4D;
+    border: 1px solid #6698C8;
+    border-width: 1px 1px 1px 0;
+    border-radius: 0 15px 15px 0;
+    height: 30px !important;
+  }
+  .p-channel_sidebar__channel.p-channel_sidebar__channel--unread:hover{
+    background-color: #6698C8 !important;
+    border-color: #6698C8;
+    height: 30px !important
+  }
+
+  #channel_header_info {
+    overflow: hidden;
+  }      
+  #client_header .channel_header {
+    margin-left: 0;
+  }
+  #col_channels_overlay {
+    display:none !important;
+  }
+}
+#client_header {min-width: 0;}
+body {min-width: 0;}
