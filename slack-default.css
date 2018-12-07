@@ -12,7 +12,7 @@
   .p-channel_sidebar__static_list > div{
     float:left;
     height: 30px !important;
-    margin-bottom: 2px;
+    margin-top: 2px;
   }
   .p-channel_sidebar__static_list > div > button,
   .p-channel_sidebar__static_list > div > span,
