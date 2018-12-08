@@ -1490,6 +1490,10 @@ ts-jumper .p-jumper__help {
     background-color: var(--background-hover);
 }
 
+.c-message__editor__input--legacy {
+  background-color: var(--background-elevated);
+  border-color: var(--primary);
+}
 @media (max-width: 600px) {
   /* hide the sidebar */
   #messages_container {
@@ -1506,7 +1510,9 @@ ts-jumper .p-jumper__help {
   }
   .p-channel_sidebar__static_list > div{
     height: 30px !important;
-    display: inline-block;
+    display: block;
+    margin-bottom: 5px;
+    float: left;
   }
   .p-channel_sidebar__static_list > div > button,
   .p-channel_sidebar__static_list > div > span,
