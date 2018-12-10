@@ -1494,7 +1494,7 @@ ts-jumper .p-jumper__help {
   background-color: var(--background-elevated);
   border-color: var(--primary);
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   /* hide the sidebar */
   #messages_container {
     margin-left: 0;
