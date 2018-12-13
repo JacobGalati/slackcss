@@ -1534,6 +1534,9 @@ ts-jumper .p-jumper__help {
     min-width: 111px;
     width:auto;
   }
+  .p-channel_sidebar__channel--muted {
+    display:none;
+  }
   .p-channel_sidebar__channel.p-channel_sidebar__channel--unread:hover{
     border-color: #66c2ff;
     height: 30px !important

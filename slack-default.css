@@ -35,6 +35,9 @@
     min-width: 111px;
     width: auto;
   }
+  .p-channel_sidebar__channel--muted {
+    display:none;
+  }
   .p-channel_sidebar__channel.p-channel_sidebar__channel--unread:hover{
     background-color: #6698C8 !important;
     border-color: #6698C8;
