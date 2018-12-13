@@ -1,0 +1,8 @@
+ #!/bin/bash
+
+echo “Updating Slack Styling...”
+
+# Your command is next.
+cat Documents/custom\ slack\ css\ instructions.js >> ../../Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js 
+
+echo "Done!"

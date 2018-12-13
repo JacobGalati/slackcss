@@ -1357,6 +1357,10 @@ nav {
     background: var(--background-elevated);
 }
 
+.c-message_list__unread_divider__separator {
+  border-bottom: 1px solid #d72b3f !important;
+}
+
 /* message editor */
 .c-message__editor__input {
     background: var(--background-elevated);
