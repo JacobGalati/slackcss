@@ -1096,6 +1096,10 @@ ts-jumper ts-jumper-container {
 	color: var(--text);
 }
 
+.c-search_modal:not(.c-search_modal--primarysearch)>.popover {
+  max-width: auto;
+}
+
 .token {
 	background-color: var(--background-elevated) !important;
 }
