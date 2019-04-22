@@ -1097,7 +1097,7 @@ ts-jumper ts-jumper-container {
 }
 
 .c-search_modal:not(.c-search_modal--primarysearch)>.popover {
-  max-width: auto;
+  min-width: auto;
 }
 
 .token {
