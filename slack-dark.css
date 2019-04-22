@@ -1075,7 +1075,7 @@ ts-jumper ts-jumper-container {
 .c-search_autocomplete footer,
 .c-search,
 .c-search__tabs,
-.c-search__input_box { background-color: unset; }
+.c-search__input_box { background-color: unset !important; }
 
 .c-search,
 .c-search__tabs,
@@ -1091,7 +1091,7 @@ ts-jumper ts-jumper-container {
 	background-color: var(--background-elevated) !important;
 }
 .c-search_autocomplete__suggestion_content .c-channel_name .c-deprecated-icon, .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_icon, .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text .filetype_description,
-.c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text .token
+.c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text .token, .c-search_autocomplete__suggestion_item
 { 
 	color: var(--text);
 }
