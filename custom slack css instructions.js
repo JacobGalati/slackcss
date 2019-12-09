@@ -4,8 +4,20 @@
 // open /Applications/Slack.app
 
 
+
+//OLD INSTRUCTIONS
 // In  slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js paste to end of file.
 
+
+//NEW INSTRUCITONS
+//Found on https://www.codepicky.com/hacking-electron-restyle-skype/
+//The first time run "npm install -g asar js-beautify"
+//In terminal navigate to /Applications/Slack.app/Contents/Resources
+//run asar extract app.asar app
+//This creates a folder called app that is the unpacked version of app.asar
+//Rename app.asar to app.asar.bak so that the program will use the app folder instead.
+//In the new app folder open ssb-interop.js and paste the code below at the bottom.
+//Reload the app.
 
 
 // First make sure the wrapper app is loaded
